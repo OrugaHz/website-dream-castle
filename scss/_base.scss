@@ -1,0 +1,29 @@
+// font-family: 'Cinzel', serif;
+// font-family: 'Manrope', sans-serif;
+// font-family: 'Playfair Display', serif;
+// font-family: 'Tangerine', cursive;
+// font-family: 'The Nautigal', cursive;
+// font-family: 'WindSong', cursive;
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+body {
+    position: relative;
+    font-size: 1.6rem;
+    font-family: 'Playfair Display', serif;
+    height: 200vh;
+}
+
+.hero-shadow {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    z-index: -1;
+}

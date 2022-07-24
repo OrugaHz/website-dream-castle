@@ -1,0 +1,59 @@
+.section_offer {
+    margin-top: 20px;
+
+    .section_offer__wrap1 {
+        @include box;
+        padding-right: 40px;
+
+        .section_offer__link {
+            @include button_black;
+        }
+
+        @media (min-width:760px) {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: flex-end;
+
+        }
+
+        .section_offer__text {
+            padding: 10px 0;
+        }
+    }
+
+
+    .section_offer__wrap2 {
+
+        .section_offer__box {
+            @include box;
+
+            .section_offer__text {
+                @include text;
+                color: rgb(41, 39, 39)
+            }
+
+            .section_offer__img {
+                @include img;
+            }
+
+            .section_offer__link {
+                @include button_black;
+                margin-top: 10px;
+            }
+
+            .section_offer__link_more {
+                @include button_more;
+            }
+        }
+
+        @media (min-width:760px) {
+            display: flex;
+            flex-direction: row;
+        }
+    }
+
+
+
+
+}
