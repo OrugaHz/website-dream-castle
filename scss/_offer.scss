@@ -7,6 +7,10 @@
 
         .section_offer__link {
             @include button_black;
+
+            &:hover {
+                @include button_hover;
+            }
         }
 
         @media (min-width:760px) {
@@ -37,13 +41,12 @@
                 @include img;
             }
 
-            .section_offer__link {
-                @include button_black;
-                margin-top: 10px;
-            }
-
             .section_offer__link_more {
                 @include button_more;
+
+                &:hover {
+                    @include button_hover;
+                }
             }
         }
 

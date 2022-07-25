@@ -18,6 +18,11 @@
     transition: .3s;
 }
 
+@mixin button_hover {
+    background-color: $color-main;
+    color: black;
+}
+
 @mixin button_more {
     display: block;
     margin: 10px 0 10px 0;

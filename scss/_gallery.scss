@@ -1,0 +1,39 @@
+.section_gallery {
+    width: 100vw;
+    min-height: 100vh;
+
+    .section_gallery__intro {
+        text-align: center;
+
+        .section_gallery__subtitle {
+            padding: 10px;
+        }
+    }
+
+    .section_gallery__gallery_box {
+        display: flex;
+        flex-direction: row;
+
+        .section_gallery__box_double {
+            display: flex;
+            flex-direction: column;
+
+            .section_gallery__img_s {
+                object-fit: cover;
+                object-position: center;
+                height: 300px;
+                // margin: 10px 0 10px 0;
+                width: 300px;
+            }
+        }
+
+        .section_gallery__img_b {
+            object-fit: cover;
+            object-position: center;
+            height: 600px;
+            // margin: 10px 0 10px 0;
+            width: 80%;
+        }
+    }
+
+}

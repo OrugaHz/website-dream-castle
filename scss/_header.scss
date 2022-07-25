@@ -75,7 +75,7 @@
                 box-shadow: 0 0 5em white;
                 text-transform: uppercase;
                 text-decoration: none;
-                transition: .5s;
+                transition: .3s;
 
                 @media(min-width: 1200px) {
                     position: absolute;
@@ -83,7 +83,7 @@
                     padding: 20px;
 
                     &:hover {
-                        background-color: whitesmoke;
+                        @include button_hover;
                     }
                 }
             }

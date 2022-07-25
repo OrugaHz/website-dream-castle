@@ -3,9 +3,7 @@
     top: 0;
     left: 0;
     width: 100%;
-    max-width: 1900px;
-    margin: auto;
-    background-color: rgb(226, 214, 214);
+    background-color: $color-main;
     display: flex;
     justify-content: space-between;
     align-items: center;
