@@ -1,6 +1,4 @@
 .section_gallery {
-    min-height: 100vh;
-    max-width: 1920px;
     margin: auto;
     padding: 20px;
 
@@ -30,7 +28,6 @@
                 object-position: center;
                 height: 300px;
                 width: 300px;
-                padding: 10px 10px;
 
                 @media (min-width: 1200px) {
 
@@ -49,7 +46,6 @@
         .section_gallery__img_b {
             object-fit: cover;
             object-position: center;
-            padding: 10px 10px;
             height: 300px;
             width: 300px;
 
@@ -68,5 +64,9 @@
         &:nth-child(2) {
             flex-direction: row-reverse;
         }
+    }
+
+    * img {
+        padding: 10px;
     }
 }

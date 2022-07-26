@@ -20,12 +20,32 @@ body {
     margin: auto;
 }
 
+.hero-shadow-header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+    z-index: -1;
+}
+
 .hero-shadow {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.4);
     z-index: -1;
+}
+
+[id] {
+    scroll-margin-top: 85.11px;
+}
+
+@media(min-width: 992px) {
+    [id] {
+        scroll-margin-top: 71.35px;
+    }
 }
