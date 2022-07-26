@@ -28,8 +28,8 @@
             .section_gallery__img_s {
                 object-fit: cover;
                 object-position: center;
-                height: 400px;
-                width: 400px;
+                height: 300px;
+                width: 300px;
                 padding: 10px 10px;
 
                 @media (min-width: 1200px) {
@@ -50,10 +50,8 @@
             object-fit: cover;
             object-position: center;
             padding: 10px 10px;
-            height: 400px;
-            width: 400px;
-
-
+            height: 300px;
+            width: 300px;
 
             @media (min-width: 1200px) {
                 filter: grayscale(30%);
@@ -65,13 +63,10 @@
                     filter: grayscale(0%);
                 }
             }
-
-
         }
 
         &:nth-child(2) {
             flex-direction: row-reverse;
         }
     }
-
 }

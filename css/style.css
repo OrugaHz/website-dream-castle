@@ -464,8 +464,8 @@ body {
      object-fit: cover;
   -o-object-position: center;
      object-position: center;
-  height: 400px;
-  width: 400px;
+  height: 300px;
+  width: 300px;
   padding: 10px 10px;
 }
 @media (min-width: 1200px) {
@@ -488,8 +488,8 @@ body {
   -o-object-position: center;
      object-position: center;
   padding: 10px 10px;
-  height: 400px;
-  width: 400px;
+  height: 300px;
+  width: 300px;
 }
 @media (min-width: 1200px) {
   .section_gallery .section_gallery__gallery_box .section_gallery__img_b {
