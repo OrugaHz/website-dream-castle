@@ -21,6 +21,7 @@
         height: 25%;
         width: 100%;
 
+
         @media (min-width: 760px) {
             justify-content: start;
             align-items: flex-start;
@@ -35,6 +36,7 @@
 
         .section_info__link {
             text-decoration: none;
+            color: black;
         }
 
         .section_info__adress {

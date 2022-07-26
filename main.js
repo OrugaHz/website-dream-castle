@@ -1,4 +1,4 @@
-const nav = document.querySelector('.nav')
+const nav = document.querySelector('.nav__section')
 
 document.addEventListener('click', () => {
     if (nav.classList.contains('show')) {
