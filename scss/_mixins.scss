@@ -40,14 +40,12 @@
 
 @mixin box {
     width: 100vw;
-    // height: 600px;
     padding: 20px;
 }
 
 @mixin text {
     padding: 10px 0 10px 0;
 }
-
 
 @mixin img {
     object-fit: cover;
