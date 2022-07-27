@@ -510,8 +510,8 @@ body {
 }
 @media (min-width: 1200px) {
   .section_gallery .section_gallery__gallery_box .section_gallery__img_b {
-    -webkit-filter: grayscale(30%);
-            filter: grayscale(30%);
+    -webkit-filter: grayscale(60%);
+            filter: grayscale(60%);
     -webkit-transition: 0.2s ease;
     transition: 0.2s ease;
     height: 600px;
